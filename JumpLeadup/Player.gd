@@ -26,4 +26,3 @@ func _physics_process(delta):
 
 func _jump():
 	velocity.y = -jump_force
-	position.y -= 5
